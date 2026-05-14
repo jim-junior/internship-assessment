@@ -1,0 +1,36 @@
+{
+  "name": "internship-assessment",
+  "version": "1.0.0",
+  "description": "This assessment consists of 3 parts: - Programming exercises. - Build a simple command line app using the Sunbird AI API.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jim-junior/internship-assessment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jim-junior/internship-assessment/issues"
+  },
+  "homepage": "https://github.com/jim-junior/internship-assessment#readme",
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.3.0",
+    "next": "^16.2.6",
+    "postcss": "^8.5.14",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "tailwindcss": "^4.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "25.7.0",
+    "@types/react": "^19.2.14",
+    "typescript": "6.0.3"
+  }
+}
