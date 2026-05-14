@@ -75,5 +75,4 @@ class SunbirdAPIClient:
         response = httpx.post(endpoint, json=payload,
                               headers=self.headers, timeout=None)
         response.raise_for_status()
-        print("TTS response:", response.json())  # Debug log
         return response.json()["output"]["audio_url"]
