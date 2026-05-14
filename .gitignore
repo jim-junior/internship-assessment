@@ -3,3 +3,11 @@ venv
 **__pycache__
 .pytest_cache
 .env
+
+node_modules
+.next
+dist
+next-env.d.ts
+
+
+#-... . .. -. --. .- -. .- ....... .--- .. -- ....... .--- ..- -. .. --- .-.
